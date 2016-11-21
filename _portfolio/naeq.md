@@ -56,9 +56,9 @@ number.
 As it turned out, I only had to declare the struct. The other types were only
 used once, so they didn't have to be declared.
 
-```go
+{% highlight go %}
 type valueEntry struct {
 	value int
 	words []string
 }
-```
+{% endhighlight %}

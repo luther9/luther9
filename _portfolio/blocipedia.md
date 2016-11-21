@@ -29,7 +29,7 @@ For the User class, Faker had obvious functions I could use for each of the
 fields. For the Wiki class, however, I had to use my own judgement. I wrote a
 FakeWiki module so my choices would be consistent throughout the app.
 
-```ruby
+{% highlight ruby %}
 # A library with functions parallel to Wiki attributes. They return random
 # values for those attributes.
 module FakeWiki
@@ -41,7 +41,7 @@ module FakeWiki
     Faker::Hipster.paragraph
   end
 end
-```
+{% endhighlight %}
 
 At first I named the FakeWiki file random_data.rb. After some error messages, I
 found out that the file name needs to be the same as the module or class name
