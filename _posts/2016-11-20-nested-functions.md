@@ -56,6 +56,3 @@ languages have their own features for protecting namespaces, so it's usually not
 a big problem. I also suspect that since functional programmers go out of their
 way to avoid modifying state, the dichotomy between constants and other
 variables might not be as big of a deal to them.
-
-**Update:** Experimentation shows that Python does not, in fact, hoist its
-  variables, so I'm still not sure why a main function is useful in Python.
