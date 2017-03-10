@@ -22,7 +22,7 @@ Note that Lua does not have as great a need for a main function, because a Lua
 variable does not go into scope until after its declaration. If you simply use a
 comment to separate your constants from your main program, that would have a
 similar effect to a main function. Python, on the other hand, hoists its
-variables, so any global variable is in scope for the entire file, even it you
+variables, so any global variable is in scope for the entire file, even if you
 don't assign to it until near the end of that file.
 
 Given all that, is it a good idea to nest functions to cut down parameter lists?
